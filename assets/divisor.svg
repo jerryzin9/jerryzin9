@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 60" width="1280" height="60">
+<style>.nv { animation: deriva 6s ease-in-out infinite alternate; } @keyframes deriva { to { transform: translateX(18px); } } @media (prefers-reduced-motion: reduce) { .nv { animation: none; } }</style>
+<line x1="40" y1="30" x2="1240" y2="30" stroke="#c1121f" stroke-opacity=".5"/>
+<g class="nv"><g transform="translate(590 4) scale(.46)"><path d="M30 92C12 92 3 78 10 66 2 56 10 39 27 42 27 24 47 13 63 24 71 7 97 3 109 20 121 5 151 10 153 30 171 26 189 41 183 57 197 63 197 85 179 90 173 101 156 103 146 95 138 105 117 107 107 96 99 107 76 107 69 96 59 105 39 103 30 92Z" fill="#c1121f" stroke="#f2ece2" stroke-width="7" stroke-linejoin="round" paint-order="stroke"/><path d="M69 96c-3-10 4-17 12-16 7 1 9 9 4 13M107 96c-2-11 6-18 15-16 7 2 8 10 2 13M146 95c-1-9 7-15 14-13 6 2 6 9 1 11" fill="none" stroke="#f2ece2" stroke-width="6" stroke-linecap="round"/></g></g>
+</svg>
