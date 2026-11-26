@@ -1,5 +1,5 @@
 # Gera o cartão do topo do perfil do GitHub (jerryzin9) no estilo "neofetch":
-# retrato do Jerry em arte ASCII (feita da FOTO REAL recortada do portfólio, nada de ilustração)
+# retrato do Jerry em arte ASCII (feita da FOTO REAL dele, a do avatar do GitHub recortada com rembg; nada de ilustração)
 # + painel de terminal com stack, contato e números. Saída: dark_mode.svg e light_mode.svg.
 # uso: python gerar_neofetch.py            (dados ficam no bloco PAINEL abaixo)
 import html
@@ -10,12 +10,14 @@ import cv2
 from PIL import Image
 
 AQUI = Path(__file__).resolve().parent
-FOTO = Path(r"C:\Users\WIN11\OneDrive\Documentos\portfolio-jerry\site\assets\v2\img\jerry-recorte.webp")
+# foto/avatar-original.jpg = avatar do GitHub (460 px); recorte = interseção u2net_human_seg × isnet-general-use
+# (um pegava o reflexo no vidro, o outro a placa da barbearia). A pasta foto/ fica fora do git.
+FOTO = AQUI / "foto" / "jerry-recorte-avatar.png"
 
 # ---------- arte ASCII ----------
 CANDIDATOS = " .'`^\",:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 COLS = 126           # colunas da arte (letra miúda: a foto aparece pela densidade, como na referência)
-CORTE = (78, 0, 338, 318)  # rosto, celular, mão e cordão, no recorte de 360 px
+CORTE = (110, 30, 400, 420)  # cabeça de perfil e ombros, na foto de 460 px
 CLAHE = 3.0                # contraste local
 CURVA = 6.0                # curva em S (luz dramática: brilho no rosto, sombra na camiseta)
 FS_ASCII = 5.2       # tamanho da fonte da arte
@@ -63,7 +65,7 @@ def arte(claro_e_denso: bool):
                 s += " "
                 continue
             # no tema claro a tinta segue o escuro da foto; limite para a camiseta preta não virar um bloco de @
-            v = G[y, x] if claro_e_denso else 0.8 * (1 - G[y, x])
+            v = G[y, x] if claro_e_denso else 0.68 * (1 - G[y, x])
             i = int(np.abs(dens - v * alvo_max).argmin())
             s += chars[max(2, i)]   # dentro da silhueta nunca fica vazio (a camiseta preta aparece)
         saida.append(s.rstrip())
@@ -151,7 +153,7 @@ def svg(tema):
            f'<line x1="1" y1="36" x2="{W-1}" y2="36" stroke="{t["borda"]}" stroke-width="1.2"/>',
            '<circle cx="24" cy="19" r="6" fill="#ff5f57"/><circle cx="44" cy="19" r="6" fill="#febc2e"/>'
            '<circle cx="64" cy="19" r="6" fill="#28c840"/>',
-           f'<text x="{W/2}" y="23.5" text-anchor="middle" font-size="13" fill="{t["sub"]}">jerryzin9 / README.md</text>',
+           f'<text x="{W/2}" y="23.5" text-anchor="middle" font-size="13" fill="{t["sub"]}">jerry@silva: ~</text>',
            # título
            f'<text x="{W/2}" y="92" text-anchor="middle" font-size="36" font-weight="700" letter-spacing="7" '
            f'fill="url(#tit)">FULL STACK DEVELOPER</text>',

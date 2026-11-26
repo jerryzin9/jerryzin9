@@ -25,8 +25,8 @@ sites e landing pages · sistemas web · agentes de IA · automações · integr
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,python,tailwind,html,css,astro,supabase,postgres,vercel,git,github,vscode&perline=8&theme=light">
-    <img alt="React, Next.js, TypeScript, JavaScript, Node.js, Python, Tailwind, HTML, CSS, Astro, Supabase, Postgres, Vercel, Git, GitHub e VS Code" src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,python,tailwind,html,css,astro,supabase,postgres,vercel,git,github,vscode&perline=8&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react%2Cnextjs%2Cts%2Cjs%2Cnodejs%2Cpython%2Ctailwind%2Chtml%2Ccss%2Castro%2Csupabase%2Cpostgres%2Cvercel%2Cgit%2Cgithub%2Cvscode&perline=8&theme=light">
+    <img alt="React, Next.js, TypeScript, JavaScript, Node.js, Python, Tailwind, HTML, CSS, Astro, Supabase, Postgres, Vercel, Git, GitHub e VS Code" src="https://skillicons.dev/icons?i=react%2Cnextjs%2Cts%2Cjs%2Cnodejs%2Cpython%2Ctailwind%2Chtml%2Ccss%2Castro%2Csupabase%2Cpostgres%2Cvercel%2Cgit%2Cgithub%2Cvscode&perline=8&theme=dark">
   </picture>
 </p>
 
