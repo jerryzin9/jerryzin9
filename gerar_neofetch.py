@@ -81,7 +81,7 @@ LARG = 62  # caracteres por linha do painel
 PAINEL = [
     ("cab", "jerry@silva"),
     ("kv", "OS", "Windows 11 · Linux (servidores)"),
-    ("kv", "Uptime", "5 anos de código"),
+    ("kv", "Uptime", "agentes de IA rodando 24/7"),
     ("kv", "Host", "GR Negócios Digitais"),
     ("kv", "Kernel", "Full Stack Developer"),
     ("kv", "IDE", "VS Code · Claude Code"),
