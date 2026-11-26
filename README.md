@@ -42,15 +42,17 @@ sites e landing pages · sistemas web · agentes de IA · automações · integr
 ## `~/projetos --destaque`
 
 <table>
+  <tr><td align="center" colspan="3"><a href="https://github.com/jerryzin9/nagi-saas"><img src="assets/missoes/nagi.webp" alt="Nagi" width="100%"></a><br><b>Nagi 凪</b><br><sub>Meu painel de prospecção com IA: acha empresas no Google Maps e no Instagram, confere se é da cidade e se ainda não tem site, aborda no WhatsApp com o case do mesmo ramo (fila de aprovação e limites contra bloqueio) e conversa com agentes de IA por MCP. Visual com a Grande Onda de Hokusai sobre um oceano em WebGL.</sub></td></tr>
   <tr><td align="center" width="33%"><a href="https://jerrysilva.vercel.app/#projetos"><img src="assets/missoes/balcao.webp" alt="Balcão" width="100%"></a><br><b>Balcão</b><br><sub>Sistema de loja: estoque, venda no leitor de código de barras, caixa, crediário e etiquetas.</sub></td><td align="center" width="33%"><a href="https://jarvis-plum-delta.vercel.app"><img src="assets/missoes/jarvis.webp" alt="Jarvis" width="100%"></a><br><b>Jarvis</b><br><sub>Assistente de voz com esfera 3D que reage enquanto ouve e responde.</sub></td><td align="center" width="33%"><a href="https://hjoias.store"><img src="assets/missoes/h-joias.webp" alt="H Jóias" width="100%"></a><br><b>H Jóias</b><br><sub>Loja de joias com catálogo, carrinho e pedido no WhatsApp. Domínio próprio.</sub></td></tr>
   <tr><td align="center" width="33%"><a href="https://jr-imports.vercel.app"><img src="assets/missoes/jr-imports.webp" alt="JR Imports" width="100%"></a><br><b>JR Imports</b><br><sub>Loja de camisas de time: catálogo, camisa com nome e número e pedido no WhatsApp.</sub></td><td align="center" width="33%"><a href="https://luanstyles-previa.vercel.app"><img src="assets/missoes/luanstyles.webp" alt="Luan Styles" width="100%"></a><br><b>Luan Styles</b><br><sub>Site de barbearia com status de aberto ao vivo, cortes reais e agendamento.</sub></td><td align="center" width="33%"><a href="https://brasileiro-contador.vercel.app"><img src="assets/missoes/brasileiro-contador.webp" alt="Brasileiro Contador" width="100%"></a><br><b>Brasileiro Contador</b><br><sub>Site de contador com status ao vivo e contagem para o DAS.</sub></td></tr>
 </table>
 
 <details>
-<summary><b>Ver os 25 projetos</b></summary>
+<summary><b>Ver os 26 projetos</b></summary>
 
 | Projeto | Tipo | O que é | Link |
 |---|---|---|---|
+| **Nagi 凪** | Prospecção com IA | Painel de prospecção: Google Maps e Instagram com checagem de cidade e de site, WhatsApp com fila de aprovação, cases por nicho e MCP para agentes de IA. | [código](https://github.com/jerryzin9/nagi-saas) |
 | **Balcão** | Sistema de loja | Estoque com grade de tamanhos, venda pelo leitor de código de barras ou pela câmera do celular, caixa, crediário com promissória, etiquetas para impressora térmica e painel do que vende e do que falta. | [Pedir demonstração](https://wa.me/5583999670561?text=Ol%C3%A1%20Jerry%2C%20quero%20ver%20uma%20demonstra%C3%A7%C3%A3o%20do%20Balc%C3%A3o) |
 | **Jarvis** | Assistente de IA | Assistente pessoal com interface de voz: você fala, a esfera 3D reage e ele responde em áudio, em português. Faz parte do squad Hermes. | [abrir](https://jarvis-plum-delta.vercel.app) |
 | **Supersquad** | Plataforma | Plataforma de squads de agentes de IA: automação, produtividade e operação inteligente para times e empresas. | [Saber mais](https://wa.me/5583999670561?text=Quero%20saber%20mais%20sobre%20o%20Supersquad) |

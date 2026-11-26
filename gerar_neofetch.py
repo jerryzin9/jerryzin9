@@ -102,7 +102,7 @@ PAINEL = [
     ("kv", "LinkedIn", "in/jerrysilvadev"),
     ("kv", "Base", "Paraíba, Brasil · remoto"),
     ("secao", "GitHub Stats"),
-    ("stats", [("Repos", "3"), ("Projetos entregues", "25"), ("Sites no ar", "15+")]),
+    ("stats", [("Repos", "3"), ("Projetos entregues", "26"), ("Sites no ar", "15+")]),
 ]
 
 TEMAS = {
